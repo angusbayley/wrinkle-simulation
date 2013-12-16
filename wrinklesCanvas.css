@@ -1,0 +1,49 @@
+
+* {
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#canvasHolder {
+	width: 600px;
+	border: 1px solid #E6E6E6;
+}
+
+#underneathCanvas {
+	width: 600px;
+	height: 140px;
+}
+
+#underneathCanvasLeft {
+	width: 288px;
+	display: inline-block;
+	padding: 12px 5px 5px 5px;
+}
+
+#underneathCanvasRight {
+	width: 288px;
+	display: inline-block;
+	padding: 12px 3px 5px 5px;
+}
+
+#underneathCanvasBottom {
+	width: 288px;
+	height: 140px;
+	padding: 12px 140px 5px 140px;
+}
+
+#mouse {
+	width:100px;
+	height:100px;
+	clear: both;
+	background-color:yellow;
+}
+
+span {
+	text-decoration: overline;
+}
+
+label {
+	display: inline;
+	padding-bottom: 10px;
+}

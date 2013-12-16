@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wrinkle canvas V1</title>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script type="text/javascript" language="javascript" src="wrinkles2.js"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="wrinklesCanvas.css"/>
+	<meta http-equiv="content-type" content="text/html; charset=UTF8">
+</head>
+<body>
+	<div id="canvasHolder">
+		<img width = 600px, height = 400px src="preMouseover.png" onmouseover="canvasStartup()">
+	</div>
+	<div id="underneathCanvas">
+		<div id="underneathCanvasLeft">
+			<p>
+	  			<label for="thickness">Film thickness (<span>h</span><sub>f</sub>):</label>
+	  			<input type="text" id="thickness" style="border: 0; color: #f6931f; font-weight: bold;" />
+			</p>
+			<div id="slider-range-min"></div>
+		</div>
+		<div id="underneathCanvasRight">
+			<p>
+	  			<label for="Es">Substrate stiffness (<span>E</span><sub>s</sub>):</label>
+	  			<input type="text" id="Es" style="border: 0; color: #f6931f; font-weight: bold;" />
+			</p>
+			<div id="slider-range-min2"></div>
+		</div>
+		<div id="underneathCanvasBottom">
+			<p>
+	  			<label for="Ef">Film stiffness (<span>E</span><sub>f</sub>):</label>
+	  			<input type="text" id="Ef" style="border: 0; color: #f6931f; font-weight: bold;" />
+			</p>
+			<div id="slider-range-min3"></div>
+		</div>
+	</div>
+</body>
+</html>
